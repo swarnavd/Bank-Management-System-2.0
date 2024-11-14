@@ -6,3 +6,9 @@ price int(10)
 );
 
 insert into book_registration(bookname,bookedition,price) values(?,?,?)
+
+update book_registration set bookname=?,bookedition=?,price=? where id=?
+
+delete from book_registration where id=?
+
+select * from book_registration where id=?
